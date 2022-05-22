@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {  /*grow shrink basis*/
+    flex: 1 1 100px;
+}
+
+.card {
+    background-color: rgb(218, 180, 122);
+    margin: 10px;
+    width: 18rem;
+}
+
+.panel {
+    background-color: rgb(206, 192, 171);
+    width: 50%;
+}
